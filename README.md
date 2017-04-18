@@ -1,6 +1,6 @@
 # POSTMAN COLLECTION FOR TESTING IYZIPAY API
 
-The easiest way of testing iyzipay API is using Postman or SoapUI. We created a set of configurations on Postman. You can import the collection file in this project in you local Postman or SoapUI application and start using.
+The easiest way of learning iyzipay API is testing the web endpoints by using Postman or SoapUI. We created a set of configurations on Postman. You can import the collection file in this project in you local Postman or SoapUI application and start using.
 
 The tests will run on **Sandbox environment**.
 
