@@ -13,9 +13,8 @@ First, you need api key and secret key. In order to get these values, complete t
 * Copy these values. You will need to paste them in Postman.
 
 Then open Postman and follow these steps:
-* Import [iyzipay API collection file](https://raw.githubusercontent.com/iyzico/iyzipay-api-testing/master/iyzipay.postman_collection) in postman
-* Run Heathcheck service. These will add two global values to Postman.
-* Click on eye icon on the right top of Postman UI. Paste apiKey and secretKey values to related fields.
+* Import [iyzipay API collection file](https://raw.githubusercontent.com/kahramani/iyzipay-postman/master/iyzipay.postman_collection.json) in postman
+* Click on eye icon on the right top of Postman UI. [Paste baseUrl, apiKey and secretKey values to related fields](https://raw.githubusercontent.com/kahramani/iyzipay-postman/master/iyzipay-postman_environment.png).
 
 Now you can continue using Postman for testing iyzipay API.
 
