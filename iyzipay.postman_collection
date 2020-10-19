@@ -39,15 +39,6 @@
 									"var apiKey = globals.apiKey",
 									"var secretKey = globals.secretKey",
 									"",
-									"//import crypto-js sha1",
-									"$.getScript(\"https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/sha1.min.js\",",
-									"function()",
-									"{});",
-									"//import crypto-js base64",
-									"$.getScript(\"https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/enc-base64.min.js\",",
-									"function()",
-									"{});",
-									"",
 									"var approval = {",
 									"    locale: null,",
 									"    conversationId: null,",
@@ -8720,6 +8711,7 @@
 						"exec": [
 							"postman.setGlobalVariable('apiKey',\"\");",
 							"postman.setGlobalVariable('secretKey',\"\");",
+							"postman.setGlobalVariable('CryptoJS',\"require('crypto-js')\");",
 							""
 						]
 					}
